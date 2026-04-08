@@ -11,11 +11,11 @@ import pygeoprocessing.routing
 import taskgraph
 
 from natcap.invest import gettext
-from natcap.invest import routedem
 from natcap.invest import spec
 from natcap.invest import utils
 from natcap.invest import validation
 from natcap.invest.file_registry import FileRegistry
+from natcap.invest.routedem import routedem
 from natcap.invest.unit_registry import u
 
 LOGGER = logging.getLogger(__name__)
