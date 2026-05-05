@@ -4,13 +4,24 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "invest_routedem_tfa_range"
-version = "0.0.1"
+version = "1.0.0"
+description = "RouteDEM that computes a range of TFAs in a single run (an InVEST plugin)"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+maintainers = [
+    {name = "Natural Capital Alliance Software Team"}
+]
+readme = "README.md"
 dependencies = [
     "natcap.invest>=3.18.0",
     "pygeoprocessing",
     "taskgraph"
 ]
-description = "RouteDEM that computes a range of TFAs in a single run (an InVEST plugin)"
+
+[project.urls]
+Repository = "https://github.com/natcap/invest-routedem-tfa-range"
+Issues = "https://github.com/natcap/invest-routedem-tfa-range/issues"
+Documentation = "https://github.com/natcap/invest-routedem-tfa-range/blob/main/README.md"
 
 [tool.natcap.invest]
 api_version = "v1"
