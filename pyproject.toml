@@ -32,3 +32,4 @@ conda_dependencies = [
   "pygeoprocessing",
   "natcap.invest>=3.18.0"
 ]
+registry_description = "invest_registry_description.md"
