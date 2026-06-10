@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "invest_routedem_tfa_range"
 version = "1.0.0"
-description = "RouteDEM that computes a range of TFAs in a single run (an InVEST plugin)"
+description = "RouteDEM variant that computes outputs for a range of Threshold Flow Accumulation (TFA) values in a single run."
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 maintainers = [
